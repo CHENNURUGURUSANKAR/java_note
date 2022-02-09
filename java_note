@@ -4,6 +4,57 @@ We will save the file with class name with .java extention.
 where JVM Stands for Java virtual Machine.
   jvm will convert the source code into byte code,and .java file will become .class file .
   for example we have file Guru.java JVM will compile the Guru.java file after that Guru.class will create ,this is called byte code this byte code can run on Operating System.
-JRE Stands for Java Run time envinornment .
-  JRE If 
+JRE Stands for Java Runtime envinornment .
+  JRE contains libraries .
+// user input in java
+  1.first we need to import the scanner package
+    import java.util.*;
+        or
+     import java.util.Scanner;
+  2. after importing Scanner class we create instance class in main method;
+      Scanner sc=new Scanner(System.in);
+    where:
+      Scanner is Class
+      sc is object of Scanner class you can given any that you want.
+   3.reading different types of daata type value from user
+      int nnumber=sc.nextInt();
+          where:
+            int is datatype
+            number is variable to store data.
+            
+      double d=sc.nextDouble();
+          where:
+            double is a datatype
+            d is a variable to store double value 
+            //in double we can get upto 15 decimal points
+   similarly         
+      float f=sc.nextFloat();
+      byte b=sc.nextByte();
+      short s=sc.nextShort();
+      char c=sc.next().charAt(0);
+          where:
+              charAt() is method to read the specific index position 
+              // here is passed 0 index postion to read first first letter in word
+              
+      String str=sc.nextLine();
+         Note:while reading String from user we sholud aware about a point that when we read integer vlaue before reading String we should explictly come to next line ny using sc.nextLine(); then we can run the programe
+         sc.nextLine();
+      
+//>>>>> ways to get vlaue after decimal point 
+  double n=3.456789;
+  System.out.printf("%.2f",n);
+  String str=String.format("%.3f",n)
+  System.out.println(str);
+  System.out.format("%.3f",n);
+//>>>>Round off
+  ther are many ways tod to round off the vlaue in that DecimalFormat is one of the class we should import from java.text.DecimalFormat or java.text.*; package;  after that we need to create a object in that object we pass the required number  # after #.
+  import java.text.*;
+  double d=3.23456789;
+  DecimalFormat dc=new DecimalFormat("#.##");
+  System.out.print(dc.format(d));
+  
+  
+  
+  
+      
  

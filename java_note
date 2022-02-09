@@ -1,3 +1,9 @@
 Jdk stands for java developement kit .
 jdk contains two JVM +JRE.
-where 
+We will save the file with class name with .java extention.
+where JVM Stands for Java virtual Machine.
+  jvm will convert the source code into byte code,and .java file will become .class file .
+  for example we have file Guru.java JVM will compile the Guru.java file after that Guru.class will create ,this is called byte code this byte code can run on Operating System.
+JRE Stands for Java Run time envinornment .
+  JRE If 
+ 

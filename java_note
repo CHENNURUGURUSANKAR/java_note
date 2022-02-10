@@ -52,6 +52,15 @@ JRE Stands for Java Runtime envinornment .
   double d=3.23456789;
   DecimalFormat dc=new DecimalFormat("#.##");
   System.out.print(dc.format(d));
+//precedence of operators 
+  ++ -- increament and decreament  suffix and prefix
+  () 
+  * / %
+  + -
+  << >>
+  ^
+  |
+  
   
   
   

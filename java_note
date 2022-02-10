@@ -61,8 +61,17 @@ JRE Stands for Java Runtime envinornment .
   ^
   |
   
-  
-  
+// cONVERTING between decimal and bimary 
+ // concverting to binary to decimal for that we need store in aSgring 
+ String s="1010";
+ System.out.print(Integer.parseInt(s,2));
+ // converting decimal to binaryString 
+System.out.println(Integer.toBinaryString(10));
+// to print the data type in java
+System.out.println(s.getClass().getSimpleName());
+
+ 
+ 
   
   
       

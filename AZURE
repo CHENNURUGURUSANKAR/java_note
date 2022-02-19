@@ -14,11 +14,16 @@ Cloud concepts( Azure):
 //first senario : ruing a web applicationn in both public and private cloud
 //side to side vpn , point to side vpn express route , vpn tunel 
 Colud Service:
-    Iaas
-    Paas
+    Iaas : build pay as you go renting servies for renting virtuval machine , storage, networking,operating system cloud providing
+    Paas : created for building testing(App service)
     Saas
+    shared reposibility
+    
 //Benifits
     high ava
-    scaled
+    scalability : is vertical scalling 
+    elasticity : is horizonatal scalling 
+    customer latesncy
+capital for 
       
   

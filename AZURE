@@ -1,0 +1,24 @@
+Cloud concepts( Azure):
+  cloud models:
+      pubilc cloud : ex AWS ,AZURE, GOOGLE ClOUd  
+          owned by cloud servies or hosting provider
+          multiple companies will host theire data
+          accessed by network connection
+      private:
+          owned by one organigation 
+          organigation is resoponceable for that data
+      hybrid :
+           is combination of both public and private to run most appiriate location 
+ cloud computing:
+              is the delivery of cloud computing over the internet , Enabiling innovation ,flexbale and economic scale
+//first senario : ruing a web applicationn in both public and private cloud
+//side to side vpn , point to side vpn express route , vpn tunel 
+Colud Service:
+    Iaas
+    Paas
+    Saas
+//Benifits
+    high ava
+    scaled
+      
+  

@@ -1,0 +1,27 @@
+Data Structure : is used to store and organize data . where we can accessed and updated efficiently .
+Types of data structures :
+    Linear Data Structure :
+           elements are arraged in a order one after another . and it is easy to implement .
+            popular linear data structures:
+                       Arrays:
+                             Same type of elements are arraged in one after another for fixed size
+                             java syntax:
+                                int [] arr=new int[5];
+                                arr[0]=2;
+                                arr[1]=2;
+                                arr[2]=2;
+                                arr[3]=2;
+                                arr[4]=2;
+                                //size will "arr.length" method
+                                // access value with index poion like " arr[index]"
+                                // copy arrays 
+                                int[] arrcopy=new int[5];
+                                arrcopy=arr;
+                                
+                       Stacks:
+                          stack is data strucutre , elements are stored in LIFo principle, last added element will remove first 
+                          
+                       Queue :
+                        Queue is unlike to stack
+    Non-Linear Data Structure:
+    

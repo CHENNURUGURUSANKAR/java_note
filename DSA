@@ -29,11 +29,41 @@ Types of data structures :
                                     
                        Queue :
                         Queue is unlike to stack it will FIFO priciple 
-                        few method for Queue:
-                                Enqueue(): Enqueue() is to add element to top/ last index
-                                Dequeue(): Dequeue is to remove first element 
-                                IsFull():
-                                IsEmpty():
-                                Peek():
+                            few method for Queue:
+                                    Enqueue(): Enqueue() is to add element to top/ last index
+                                    Dequeue(): Dequeue is to remove first element 
+                                    IsFull():check full or not 
+                                    IsEmpty(): check empty or not 
+                                    Peek():get element with removing
+                        LinkedList :
+                               it is a data structure to store data . elements are connectedin series of nodes each node contain data and next node address 
+                                    Types of LinkedList:
+                                            Singally LinkedList:
+                                                        this type LinkedList Each node contain data of the item and next node addtess at the last node containis NULL as address
+                                            Doublly LinkedList:
+                                                        this type of LinkedList can go either forward and backward i the list at the node address will NULL
+                                            Circular LinkedList:
+                                                        This type of LInkedList Last node connect to first node 
+                              
     Non-Linear Data Structure:
+            it is unlike to linear data structures , elements are not in series , insted of series elements are arraged in herarchical mannar 
+            type of NON-linear data structures:
+                Graphs: Graphs are data structure where each node is called Vertex and vertex are conneted to vertices through edges
+                    graph based data structure:
+                            Spanning tree minimum spanning tree:
+                            strongly conneted componets:
+                            Adjeces matrix :
+                            Adjeces List:
+                            
+                    
+                Trees: In tree only edge between 2 vertices
+                     Tree based data structures:
+                                Binary Tree: 
+                                Binary Search Tree:
+                                B+  Tree:
+                                B- Tree:
+                                AVL Tree:
+                                red black tree:
+                                
+          
     

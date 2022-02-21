@@ -20,8 +20,20 @@ Types of data structures :
                                 
                        Stacks:
                           stack is data strucutre , elements are stored in LIFo principle, last added element will remove first 
-                          
+                            few Method for stack :
+                                    Push(): it is  used to add element in the last index/node
+                                    Pop(): it is used remove last element 
+                                    IsEmpty(): it is used to check weither thae stack is empty or not // we use tis method to while removing the element 
+                                    IsFull(): it is used to check weither the stack is full or not // we will this while adding a element to stack 
+                                    Peek(): it is used get top / last elemrnt from stack with put removing the element
+                                    
                        Queue :
-                        Queue is unlike to stack
+                        Queue is unlike to stack it will FIFO priciple 
+                        few method for Queue:
+                                Enqueue(): Enqueue() is to add element to top/ last index
+                                Dequeue(): Dequeue is to remove first element 
+                                IsFull():
+                                IsEmpty():
+                                Peek():
     Non-Linear Data Structure:
     

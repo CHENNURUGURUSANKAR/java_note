@@ -1,0 +1,26 @@
+Create database databasename
+Create table tablename{
+name varchar(100)
+salary int 
+}
+// insert values
+insert into tablename values("guru",100000)
+insert into tablename values("guru",200000)
+insert into tablename values("guru",400000)
+insert into tablename values("guru",600000)
+insert into tablename values("guru",10000)
+select /*column name*/ name From tablename
+// max value from table
+select MAX(salay) As salary From tablename
+//Min value
+select MIN(salary) As salary From tablename
+// top 2nd 
+select distinct top 3 /*colname*/ salary  from tablename order by /* colname*/ salary DESC
+// lowest 2nd
+select distinct top 2 salary from tablename order by ASC
+
+
+
+
+
+

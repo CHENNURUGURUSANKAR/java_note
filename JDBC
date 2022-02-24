@@ -1,0 +1,19 @@
+How to connect MySql Database with Java?    
+How to retrive data from mysql database?
+How to modify MySql Database?
+
+What is JDBC API ?
+    programmerto connect any database oracel ,mysql ,sql server
+      Steps to use JDBC API
+          1.esttablish a connection with database
+              1. register a driver 
+                what is driver?
+                    is a set classes , interface written according to the JDBC API to communicate with Database.
+                    we do not required any native libraries or ODBC bridge
+                     
+              2. connect to the database
+              
+          2.excute sql queriesto retrive data
+          
+What is full form of JDBC ?
+

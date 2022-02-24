@@ -69,10 +69,64 @@ JRE Stands for Java Runtime envinornment .
 System.out.println(Integer.toBinaryString(10));
 // to print the data type in java
 System.out.println(s.getClass().getSimpleName());
-
- 
- 
-  
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Collections in Java
+    Collection is an object represent a grou[ of objects
+    that contains similar or mixed data types
+    Class can only contain objects so that primative data tyoes or convered into their class representation like int to Integer, double to double
+    it will to sort and search in best algorithms
+    Like 
+    hashmap ,ArrayList
+   Collections are consist of 3 phases
+        Interface
+        Implementaion
+        Algorithms
+Types of Collextions
+    set:
+        It should not contain duplicate Value
+    List:
+        Can contain duplicate values
+    Queue :
+        in this elements are prior to process
+   Map :
+      maps is collection to keys value
+      Same key sholud not repeat to assign value
+    Sorted Map:
+        Key are sorted in Assending order 
+  Useful Methods In Collection:
+        ContainAll():
+        addAll():
+        clear():
+        removeAll():
+        retainAll():
+        toArray:
+            it ccan expect array as input.
+        
+  ///////////////////
+//  Enums:
+/////////// OOPS ////////////
+    Inheritance :
+          What is Inheritance ?
+              Inheritance is the mechanism that one object can acquire properies and behavior of parent oject.
+              class
+          What is Super Class?
+          Objects of Super class ?
+          what are the type of inhritance ?
+            Types of inheritance:
+                Single inhertance:
+                    when a class extends another one  class only it is single inhertance.                    
+                Multilevel Inhertance/ hybride inhertance :
+                            //it can passable throug only interfaces
+                            where one can inherit from a drived, drived class will base class
+                            class A{
+                            }
+                            class B extends A{
+                            }
+                            class C extends B{
+                            }
+                Hierarchial Inhertance:
+                
+          
   
       
  

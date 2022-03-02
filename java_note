@@ -126,7 +126,44 @@ Types of Collextions
                             }
                 Hierarchial Inhertance:
                 
-          
+/////////////////// 2nd March 2022///
+Set : collection of unique values
+Map: it is key unique value pair
+// def
+HashSet: No insertation order
+  //we will use for each loop to access values
+  //we can add one null vlaue
+  //crud operations are
+  .add();
+  .remove();
+TreeSet: list is sorted  in assennding order
+  // we can not insert null value 
+  .add();
+  .remove();
+  we will use for each loop;
   
-      
- 
+HashMap:no insertation order
+ no duplicate keys will present 
+ null values can add but null key can not 
+ .put(key,value)
+ .get(key);
+ .remove(key);
+we will use Map.Entry to access values
+ for (Map.Entry m : map.entrySet())
+ {
+   m.getKey();
+   m.getValue();
+  }
+TreeMap:keys are sorted in assending order to 
+we will use Map.Entry to access values
+no duplicate keys will present 
+ null values can add but null key can not 
+ .put(key,value)
+ .get(key);
+ .remove(key);
+we will use Map.Entry to access values
+ for (Map.Entry m : map.entrySet())
+ {
+   m.getKey();
+   m.getValue();
+  }

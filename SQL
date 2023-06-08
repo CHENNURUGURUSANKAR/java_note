@@ -1,3 +1,24 @@
+-- Types Keys in SQL
+-- SuperKey(SK)  is unqiue column that may consist of onw or more key in table it is theoritical concept we wount implement this one any where
+-- candidate Key (CK) --> combination of unique value with other key . not invidual SK allowed . we will use SK but SK is not porper super Key a no proper subset is condidate key -- minimal kwy is(as minimum as posiable)
+-- Primary Key(PK) One CK without any null values is a PK .only one sholud in relation
+--
+--FK it sholud link between two table and thee forgen key it primary key other for example we have Ordertable and users tale coustomerid is FK so that we can identify user deails 
+ -- functional dependency(FD) with arrow(->) somthing is dependent on other, x -> y where x is superkey/ condidate key : (Sk/Ck), reverse is not possible . r1.x==r2.x && r1.y==r2.y;  if we have more valus with x itt cqn br geoup 
+ -- types of FD 
+    -- trivial FD --> x -> x || y --> y 
+    -- non Trivial FD--> nothing is is common 
+        -- Amstrongs  
+        --
+    --multi valued 
+    -- transitive 
+ -- what is functional dependency 
+ 
+ -- how to write FD on table
+ 
+
+
+
 Create database databasename
 Create table tablename{
 name varchar(100)
